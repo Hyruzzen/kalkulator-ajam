@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(135deg, #2c3e50, #56205d); /* Gradasi biru gelap */
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#kalkulator {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px; 
+  border-radius: 20px; /* Sudut lebih melengkung */
+  background-color: rgba(255, 255, 255, 0.15); /* Latar belakang transparan */
+  backdrop-filter: blur(15px); /* Efek blur */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7); /* Bayangan lebih halus */
+}
+
+#judul {
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Bayangan teks */
+}
+
+.wrapper {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 10px 0;
+
+}
+
+.wrapper div {
+  flex: 1; /* Membagi lebar secara merata */
+  padding: 20px; /* Padding lebih besar */
+  border-radius: 12px; /* Sudut melengkung pada tombol */
+  transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+.wrapper div:hover {
+  background: #0535749e; /* Warna latar belakang saat hover */
+}
+
+.wrapper div:active {
+  transform: scale(0.95); /* Mengurangi ukuran saat diklik */
+  background: #02466396; /* Warna latar belakang saat aktif */
+}
+#hasil, #btn-hitung {
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.492); /* Latar belakang putih transparan */
+  border-radius: 12px; /* Sudut melengkung */
+  margin: 5px 0; /* Margin atas dan bawah */
+  padding: 15px; /* Padding tambahan */
+}
+
+.bg-abu { background: #bdc3c7c3; }
+.bg-red { background: #e74c3c; }
+.bg-dark-brown { background: #7f8c8d; }
+.bg-brown { background: #d35400; }
+.bg-dark-blue { background: #2980b9; }
+.bg-purple { background: purple;}
