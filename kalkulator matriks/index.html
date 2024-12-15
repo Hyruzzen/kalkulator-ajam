@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ajam Jamaludin</title>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Kalkulator Matrik Ajam</h1>
+        <h5>NIM: 242505032</h5>
+
+        <h2>Matriks 1</h2>
+        <table class="matrix-table" id="matrix1">
+            <tr>
+                <td><input type="number" id="m1_11" value="0"></td>
+                <td><input type="number" id="m1_12" value="0"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="m1_21" value="0"></td>
+                <td><input type="number" id="m1_22" value="0"></td>
+            </tr>
+        </table>
+
+        <h2>Matriks 2</h2>
+        <table class="matrix-table" id="matrix2">
+            <tr>
+                <td><input type="number" id="m2_11" value="0"></td>
+                <td><input type="number" id="m2_12" value="0"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="m2_21" value="0"></td>
+                <td><input type="number" id="m2_22" value="0"></td>
+            </tr>
+        </table>
+
+        <div class="operations">
+            <button onclick="addMatrices()">Tambah Matriks</button>
+            <button onclick="subtractMatrices()">Kurangi Matriks</button>
+            <button onclick="multiplyMatrices()">Kali Matriks</button>
+        </div>
+
+        <h2>Hasil</h2>
+        <div id="resultContainer" class="matrix-container"></div>
+    </div>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="kalkulator.js"></script>
+</body>
+</html>
